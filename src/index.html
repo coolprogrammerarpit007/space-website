@@ -4,25 +4,56 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<body class="flex justify-center items-center text-[#fff]">
-  <div class="container  w-[100%] h-[100vh]">
+<body class="text-white font-google">
 
-    <!-- Navigation Bar -->
-    <nav class="nav-section flex justify-between items-center py-[1.5rem]">
-        <!-- Logo Image -->
-        <div class="logo">
-            <img src="./assets/shared/logo.svg" alt="logo image">
+  <!-- Navigation Bar -->
+  <nav class="py-[2rem] px-[5rem] flex justify-between items-center">
+    <!-- Navigation Logo -->
+    <div class="logo">
+      <img src="./assets/shared/logo.svg" alt="Logo Image">
+    </div>
+
+    <!-- Navigation Links  -->
+     <ul class="links flex justify-between items-center gap-[2rem]  w-[65%] text-[2rem] bg-[rgb(255,255,255,0.3)] px-[2rem] py-[2rem]">
+      <li class="block border-white border-b-4">
+        <a href="#" class="uppercase"><span class="mr-5">00</span>home</a>
+      </li>
+      <li class="link ">
+        <a href="#" class="uppercase"><span class="mr-5">01</span>destination</a>
+      </li>
+      <li class="link ">
+        <a href="#" class="uppercase"><span class="mr-5">03</span>crew</a>
+      </li>
+      <li class="link ">
+        <a href="#" class="uppercase"><span class="mr-5">04</span>technology</a>
+      </li>
+     </ul>
+  </nav>
+
+  <!-- Hero Section -->
+
+  <section class="hero-section mt-[6rem]">
+    <div class="hero-container p-[4rem] flex justify-between items-center">
+      <!-- Left Section -->
+       <div class="right-part flex flex-col gap-[2rem]">
+         <h2 class="text-[2.5rem]">SO, YOU WANT TO TRAVEL TO</h2>
+         <h1 class="text-[5rem]">SPACE</h1>
+         <div class="w-[60%]">
+          <p class="text-[2rem] leading-[4rem]">Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!</p>
+         </div>
+       </div>
+
+       <!-- Right Section -->
+        <div class="bg-white rounded-full w-[60rem] h-[30rem] flex justify-center items-center">
+          <h2 class="text-black text-[4rem]">EXPLORE</h2>
         </div>
-
-        <!-- Navigation Links -->
-         <ul class="links flex justify-between items-center gap-[0.7rem] text-[2rem] w-[70%] bg-[rgb(255,255,255,0.1)] p-[3rem]">
-            <li class="link uppercase border-b-2 border-white"><span class="font-bold">00</span> home</li>
-            <li class="link uppercase"><span class="font-bold">01</span> destination</li>
-            <li class="link uppercase"><span class="font-bold">02</span> crew</li>
-            <li class="link uppercase"><span class="font-bold">03</span> technology</li>
-         </ul>
-    </nav>
-  </div>
+    </div>
+  </section>
 </body>
 </html>

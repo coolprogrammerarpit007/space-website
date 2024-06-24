@@ -16,6 +16,10 @@
         border: 1px solid blue;
     }
 
+    .font-google{
+        font-family: "Montserrat", sans-serif;
+    }
+
     .background-home {
         background: url(../src/assets/home/background-home-desktop.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
